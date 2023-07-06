@@ -1,0 +1,123 @@
+.categorieCard {
+  background-color: #ffffff;
+  color: #251f81;
+  width: 15rem;
+  height: 10rem;
+  margin: 15px 12px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #1914686c;
+  transition: transform 100ms;
+}
+.categorieCard:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  /* border: 1px solid #0a0a0a; */
+}
+.categories-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.close-btn {
+  float: right;
+  position: relative;
+  right: 5px;
+  top: 5px;
+  background-color: #1d45d4;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 10px #372f2f4f;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.showing-jokes {
+  box-shadow: 0px 0px 10px #000;
+  position: absolute;
+  width: 50vw;
+  top: 30vh;
+  right: 20vw;
+  border-radius: 5px;
+  background: rgb(18, 77, 142);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 77, 142, 0.9837184873949579) 25%,
+    rgba(66, 88, 107, 1) 69%,
+    rgba(66, 88, 107, 1) 77%
+  );
+}
+.hiding-jokes {
+  display: none;
+}
+.joke-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 8px;
+  text-transform: capitalize;
+}
+.joke-box {
+  border: 1px solid #000;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 0px 0px 10px #4d444465;
+}
+.next-btn {
+  background-color: #2d1fec;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 10vw;
+  border: none;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.next-btn:hover {
+  background-color: #3b2dff;
+}
+
+@media screen and (max-width: 750px) {
+  .categories-items {
+    gap: auto;
+  }
+  .categorieCard > p {
+    display: none;
+  }
+  .categorieCard {
+    width: 4rem;
+    height: 1rem;
+  }
+  .categorieCard > h2 {
+    font-size: 1rem;
+  }
+
+  .showing-jokes {
+    position: absolute;
+    right: 10vw;
+    width: 80vw;
+    top: 20vh;
+  }
+  .joke-box{
+    font-size: 1.5rem;
+  }
+}
