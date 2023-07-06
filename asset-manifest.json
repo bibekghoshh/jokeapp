@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.29c8494f.css",
-    "main.js": "/static/js/main.65a8d46f.js",
-    "static/js/787.62415cd5.chunk.js": "/static/js/787.62415cd5.chunk.js",
-    "index.html": "/index.html",
-    "main.29c8494f.css.map": "/static/css/main.29c8494f.css.map",
-    "main.65a8d46f.js.map": "/static/js/main.65a8d46f.js.map",
-    "787.62415cd5.chunk.js.map": "/static/js/787.62415cd5.chunk.js.map"
+    "main.css": "/jokeapp/static/css/main.29c8494f.css",
+    "main.js": "/jokeapp/static/js/main.7fc26e4d.js",
+    "static/js/787.62415cd5.chunk.js": "/jokeapp/static/js/787.62415cd5.chunk.js",
+    "index.html": "/jokeapp/index.html",
+    "main.29c8494f.css.map": "/jokeapp/static/css/main.29c8494f.css.map",
+    "main.7fc26e4d.js.map": "/jokeapp/static/js/main.7fc26e4d.js.map",
+    "787.62415cd5.chunk.js.map": "/jokeapp/static/js/787.62415cd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29c8494f.css",
-    "static/js/main.65a8d46f.js"
+    "static/js/main.7fc26e4d.js"
   ]
 }
